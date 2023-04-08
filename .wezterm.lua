@@ -1,4 +1,5 @@
 -- For windows paste it in the C:\Users\<username>\.wezterm.lua
+-- For more info, visit: https://wezfurlong.org/wezterm/config/files.html
 local wezterm = require("wezterm")
 
 local config = {
