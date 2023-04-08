@@ -28,5 +28,8 @@ local config = {
 	},
 
 	tab_bar_at_bottom = true,
+
+	initial_rows = 36,
+	initial_cols = 100,
 }
 return config
