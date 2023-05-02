@@ -3,9 +3,13 @@ local wezterm = require("wezterm")
 local config = {
 	check_for_updates = false,
 
+	font = wezterm.font("Liga SFMono Nerd Font", { weight = "DemiBold" }),
+	-- font = wezterm.font("Hack Nerd Font Mono", { weight = "Regular" }),
 	-- font = wezterm.font("Iosevka NFM", { weight = "Bold" }),
-	font = wezterm.font("FiraCode Nerd Font Mono", { weight = "Medium" }),
+	-- font = wezterm.font("FiraCode Nerd Font Mono", { weight = "Medium" }),
 	-- font = wezterm.font("MesloLGMDZ NF", { weight = "Medium" }),
+	-- font = wezterm.font("MesloLGS NF", { weight = "Regular" }),
+
 	font_size = 14,
 
 	default_prog = { "powershell.exe", "-NoLogo" },
