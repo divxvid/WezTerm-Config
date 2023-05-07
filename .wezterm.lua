@@ -1,3 +1,6 @@
+-- For Powershell, follow this to allow panes to open in CWD:
+-- https://wezfurlong.org/wezterm/shell-integration.html#osc-7-on-windows-with-powershell
+-- Also, to set the default shell, set the "ComSpec" Env Variable to powershell.exe path
 local wezterm = require("wezterm")
 
 local config = {
@@ -12,7 +15,7 @@ local config = {
 
 	font_size = 14,
 
-	default_prog = { "powershell.exe", "-NoLogo" },
+	-- default_prog = { "powershell.exe", "-NoLogo" },
 	default_cwd = "D:/Coding/",
 
 	-- color_scheme = "Tokyo Night (Gogh)",
